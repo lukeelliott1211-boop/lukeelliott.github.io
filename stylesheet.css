@@ -312,6 +312,12 @@ span.highlight {
   border-radius: 10px;
 }
 
+.detail-overview-media--pair {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
 .detail-overview-caption {
   margin: 10px 0 0;
   font-size: 13px;
