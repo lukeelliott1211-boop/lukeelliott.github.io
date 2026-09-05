@@ -300,6 +300,25 @@ span.highlight {
   flex-direction: row-reverse;
 }
 
+.detail-overview-media {
+  flex: 0 0 30%;
+  width: 30%;
+}
+
+.detail-overview-media-image {
+  display: block;
+  width: 100%;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+}
+
+.detail-overview-caption {
+  margin: 10px 0 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #666666;
+}
+
 .detail-video-section {
   margin: 8px 0 24px;
 }
@@ -323,7 +342,8 @@ span.highlight {
     align-items: stretch;
   }
 
-  .detail-overview-image {
+  .detail-overview-image,
+  .detail-overview-media {
     width: 100%;
     flex: none;
   }
