@@ -300,6 +300,22 @@ span.highlight {
   flex-direction: row-reverse;
 }
 
+.detail-video-section {
+  margin: 8px 0 24px;
+}
+
+.detail-video-section p {
+  margin: 0 0 12px;
+}
+
+.detail-video {
+  display: block;
+  width: 100%;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  background: #000000;
+}
+
 @media (max-width: 700px) {
   .detail-overview,
   .detail-overview--reverse {
