@@ -110,14 +110,11 @@ span.highlight {
 
 .profile {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 32px;
-  flex-wrap: wrap;
+  text-align: center;
+  gap: 16px;
   margin-bottom: 56px;
-}
-
-.profile-photo {
-  flex: 0 0 160px;
 }
 
 .avatar {
@@ -129,8 +126,7 @@ span.highlight {
 }
 
 .profile-info {
-  flex: 1 1 320px;
-  min-width: 0;
+  max-width: 480px;
 }
 
 .name {
@@ -277,11 +273,4 @@ span.highlight {
   text-align: center;
   font-size: 13px;
   color: #999999;
-}
-
-@media (max-width: 600px) {
-  .profile {
-    flex-direction: column;
-    text-align: center;
-  }
 }
