@@ -313,6 +313,20 @@ span.highlight {
   gap: 12px;
 }
 
+.detail-overview--wide-media .detail-overview-media {
+  flex: 0 0 46%;
+  width: 46%;
+}
+
+.detail-overview-media--row {
+  display: flex;
+  gap: 12px;
+}
+
+.detail-overview-media--row .detail-overview-media-image {
+  width: 50%;
+}
+
 .detail-overview-caption {
   margin: 10px 0 0;
   font-size: 13px;
