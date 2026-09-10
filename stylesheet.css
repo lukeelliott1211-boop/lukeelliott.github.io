@@ -334,6 +334,22 @@ span.highlight {
   color: #666666;
 }
 
+.detail-note {
+  margin: 8px 0 24px;
+  padding: 16px 20px;
+  border: 1px solid #eaeaea;
+  border-left: 4px solid #f09228;
+  border-radius: 8px;
+  background: #fbfbfb;
+}
+
+.detail-note p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #444444;
+}
+
 .detail-video-section {
   margin: 8px 0 24px;
 }
